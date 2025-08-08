@@ -1,0 +1,183 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e2b3c;
+    background-image: url(img/me.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Contenedor general para centrar */
+.contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Formularios */
+form, .formulario {
+    background-color: rgba(255, 255, 255, 0.95);
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button, .boton {
+    width: 100%;
+    padding: 12px;
+    background-color: #264c81;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+button:hover, .boton:hover {
+    background-color: #1b355f;
+}
+
+/* Enlaces */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    text-align: center;
+    color: white;
+}
+
+/* Tablas */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #264c81;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Mensajes */
+.mensaje-exito {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 500px;
+}
+
+.mensaje-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 500px;
+}
+
+/* Menú */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    background-color: #264c81;
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: coral;
+}
+
+/* Sección de búsqueda */
+.seccion-busqueda {
+    background-color: #264c81;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+.form-busqueda {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    align-items: center;
+}
+
+/* Contenedor de enlaces del index */
+.enlaces-index {
+    margin-top: 20px;
+}
+
+.enlaces-index a {
+    display: inline-block;
+    margin: 10px;
+    background-color: #264c81;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.enlaces-index a:hover {
+    background-color: coral;
+}
+ body { font-family: Arial, sans-serif; max-width: 800px; margin: 20px auto; padding: 20px; }
+        .form-group { margin-bottom: 15px; }
+        input, select, textarea { width: 100%; padding: 8px; margin-top: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+        .success { color: green; }
+        .error { color: red; }
